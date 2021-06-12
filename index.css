@@ -1,36 +1,35 @@
-
+Body{
+  background-color:white;  
+}
 #header{
-    margin-left: 60px;
-    margin-right: 60px;
     text-align: center;
     font-size: 30px;
     background-image: url("assets/landing.jpg");
     background-repeat: no-repeat;
 }
-#header,p{
+#header>p{
      color: white; 
     padding-bottom: 20px;
 }
  .serv{
     display: flex;
     position: relative;
-    top: 0px;
+    top: -30px;
     flex-direction: row;
     justify-content: baseline;
     text-align: center;
-    margin-left: 60px;
 } 
 .happyhour{
     height: 75px;
-    width: 20px;
+    width: 270px; 
     color: black;
     background-color: gainsboro;
     box-sizing: border-box;
-    padding: 20px;
+    padding: 20px; 
 }
 .partytime{
     height: 75px;
-    width: 270px;
+    width: 270px; 
     color: white;
     background-color: #f15a29;
     box-sizing: border-box;
@@ -46,7 +45,7 @@
     color: white;
     font-size: medium;
     height:100px;
-    width: 270px;
+    width: 250px;
     padding-top: 50px;
     background-image: url('./assets/breakfast.jpg');
     background-repeat: no-repeat;
@@ -57,7 +56,7 @@
     color: white;
     font-size: medium;
     height: 100px;
-    width: 270px;
+    width: 250px;
     padding-top: 50px;
     background-image: url('./assets/lunch.jpg');
     opacity: 0.5;
@@ -68,7 +67,77 @@
     color: white;
     font-size: medium;
     height: 100px;
-    width: 270px;
+    width: 250px; 
     padding-top: 50px;
     background-image: url('./assets/dinner.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
 }
+.FOOD{
+    display: flex;
+    width: 50%;
+    margin: auto;
+    border: 20px;
+  }
+  .DRINKS{
+    display: flex;
+    width: 50%;
+    margin: auto;
+    border: 20px;
+  }
+  .explan1>h3,.explan2>h3{
+      text-align: center;
+  }
+  .explan1>p{
+      color: black;
+      font-size: 15px;
+      float:right;
+      justify-content: space-evenly;
+      padding-left:20px;
+      text-align: center;
+  }
+  .explan2>p{
+    color: black;
+    font-size: 12px;
+    float:right;
+    justify-content: space-evenly;
+    padding-left:20px;
+    text-align: center;
+}
+.button{
+   
+
+}
+.fastfood1,.fastfood2{
+    margin:0 0 0 0;
+  }
+  .explan1{
+    height: 450px;
+    width: 450px;
+    margin-left: 10px;
+    
+  }
+  .explan2{
+    height: 450px;
+    width: 450px;
+    margin-left: 10px;
+
+  }
+  
+  .footer{
+      border: 2px solid red;
+      background-color: rgb(243, 30, 30);
+  }
+  .email{
+      height: 200px;
+      width: auto;
+      background-image: url('assets/subscribe.jpg');
+      background-repeat: no-repeat;
+  }
+  .email h2{
+      text-align: center;
+      color: white;
+  }
+  #logos{
+      align:center;
+  }
