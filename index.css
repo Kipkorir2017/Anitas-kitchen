@@ -159,17 +159,17 @@ Body{
   
  .email {
     background-image: url('assets/subscribe.jpg');
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-   color: white;
-   height: 300px;
-   width: 100%;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 300px;
+    width: 100%;
 }
 .footer{
     background-color: #f3521c;
-    display: flex;
+    display: flex; 
     flex-direction: column;
     justify-content: center;
     align-items: center;
