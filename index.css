@@ -242,3 +242,7 @@ Body{
   #logos{
    font-size: 30px;
   }
+  span{
+    font: bold;
+    font-weight: 24px;
+  }
