@@ -129,9 +129,13 @@ Body{
   .meals{
   background-image: url('assets/foodsBg.jpg');
   height: 400px;
+  background-blend-mode: overlay; 
+  background-color: rgba(136, 132, 132, 0.79);
+  background-size: cover;
+  text-align: center;
   }
   .list{
-    color: #f54e16;
+  color: #f54e16;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -144,15 +148,42 @@ Body{
   }
   th {
     padding: 10px;
-    background-color: rgb(184, 180, 180);
+    background-color: #b8b4b4;
+    width: 100px;
   }
   #piece tr th{
-    border-right: 1px solid rgb(209, 208, 208);
+    border-right: 1px solid #d1d0d0;
   }
   #fastf {
     color: #f15a29;
     background-color: white;
   }
+  .img1 {
+    background-color: white;
+    width: 900px;
+    margin-left: 22%;
+    box-sizing: border-box;
+    padding-right: 10px;
+  }
+  .list {
+    color: #f15a29;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+  }
+  .img {
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    margin: 5px;
+  }
+  .classic{
+    padding-top: 10px;
+    margin-left: 10px;
+    
+  }
+
   
   .customers{
       display: flex;
@@ -163,6 +194,7 @@ Body{
       text-align: center;
       margin-top: 30px;
       margin-bottom: 30px;
+      opacity: 0.6;
   }
   #happy{
       border: 1px solid gray;
