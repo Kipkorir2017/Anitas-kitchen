@@ -242,7 +242,9 @@ Body{
   #logos{
    font-size: 30px;
   }
+
   span{
-    font: bold;
-    font-weight: 24px;
+    color: white;
+    float: left;
+    margin-left: 2%;
   }
