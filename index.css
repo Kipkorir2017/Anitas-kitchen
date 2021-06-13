@@ -166,7 +166,6 @@ Body{
     background-color: white;
   }
   .img1 {
-    /* background-color: white; */
     width: 900px;
     /* margin-left: 20%; */
     display: flex;
@@ -192,7 +191,6 @@ Body{
   
   .customers{
       display: flex;
-      /* border:2px gray solid; */
       width: 60%;
       padding-top: 20px;
       margin-left: 20%;
