@@ -85,6 +85,7 @@ Body{
     margin: auto;
     border: 20px;
     height: -10px;
+    padding-left: -5;
   }
   .explan1>h3,.explan2>h3{
       text-align: center;
@@ -125,10 +126,34 @@ Body{
     margin-left: 10px;
 
   }
-  .table{
-      height: 250px;
-      background-image: url('assets/foodsBg.jpg');
+  .meals{
+  background-image: url('assets/foodsBg.jpg');
+  height: 400px;
   }
+  .list{
+    color: #f54e16;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 18px;
+  }
+  #piece{
+    width: 90%;
+  border-collapse: separate;
+
+  }
+  th {
+    padding: 10px;
+    background-color: rgb(184, 180, 180);
+  }
+  #piece tr th{
+    border-right: 1px solid rgb(209, 208, 208);
+  }
+  #fastf {
+    color: #f15a29;
+    background-color: white;
+  }
+  
   .customers{
       display: flex;
       /* border:2px gray solid; */
