@@ -242,8 +242,12 @@ Body{
   #logos{
    font-size: 30px;
   }
-
   span{
+    
+  }
+
+
+  .bars{
     color: white;
     float: left;
     margin-left: 2%;
