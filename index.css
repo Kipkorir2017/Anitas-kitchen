@@ -198,6 +198,7 @@ Body{
       margin-top: 30px;
       margin-bottom: 30px;
       border: 1px solid gray;
+      box-shadow:  2px 2px 7px 2px rgba(136, 132, 132, 0.79);
 
   }
   /* #happy{
